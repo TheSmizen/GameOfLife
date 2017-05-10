@@ -1,5 +1,7 @@
 package gameoflife;
 
+import graphics.Main;
+
 /**
  * @author Sean Mizen
  * Game of life: Rules based matrix application.
@@ -15,6 +17,16 @@ public class GameController {
         //-Create Cell class (For expansion reasons)
         //
         //-Add "Graphics" Package from Arantza
+        
+        //PetriDish myGrid = new PetriDish();
+        int[] dimensions = new int[2];
+        dimensions[0] = 10;
+        dimensions[1] = 10;
+        
+        Main gui = new Main();
+        
+        gui.main(dimensions);
+        
     }
     
 }
