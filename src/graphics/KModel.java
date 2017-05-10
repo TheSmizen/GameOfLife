@@ -1,7 +1,6 @@
 
 package graphics;
 
-import java.util.ArrayList;
 import java.util.Observable;
 import gameoflife.PetriDish;
 import gameoflife.Cell;
