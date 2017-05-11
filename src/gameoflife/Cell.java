@@ -21,7 +21,7 @@ public class Cell extends Object{
         }
         else{//Cell is alive!
              //Will live only if there are 2 or 3 adjacent living cells.
-            if((adjacency < 2) || (4 < adjacency)){
+            if((adjacency < 2) || (3 < adjacency)){
                 this.toggle();
             }
         }
